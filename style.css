@@ -1,0 +1,779 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.q2{
+    background-image: url(./footer-logo.png);
+background-size:100% 100%;
+}
+.q1{ 
+    background-image: url();
+    background-size: 100% 100%;
+    background-size:100% 100% ;
+    /* overflow: hidden; */
+    animation-name: name; 
+        animation-duration:10s;
+    animation-iteration-count: infinite;
+    position:relative;
+    
+}
+@keyframes name{
+    0%{
+        background-image:url(./slide-v1-1.jpg);
+    animation-delay: 10s;
+    /* transform: scale(1.2); */
+    }
+    50%{
+        background-image:url(./slide-v1-2.jpg);
+    animation-duration: 10s;
+    }
+    100%{
+        background-image: url(./slide-v1-3.jpg);
+    animation-duration: 10s;
+    }
+}
+.aft20::after{
+  border: 1px solid red; 
+   content: "";
+    /* position: absolute; */
+    background-color:red;
+    height: 2px;
+    width: 50px;
+top: 0px;
+/* visibility: hidden;  */
+}
+.aft20:hover::after{
+height: 90px;
+width: 50px;
+top: 0%;
+visibility: visible;
+transition-duration: 1s;
+}
+.q3:hover{
+background-color: yellow;
+color: white;
+cursor: pointer;
+}
+.btn1:hover{
+    color: white;
+    z-index: 2;
+
+}
+.btn1::after{
+height: 100%;
+width:1px ;
+background-color:black;
+content: "";
+position: absolute;
+top: 0%;
+left: 50%;
+visibility: hidden;
+border-top-left-radius: 28px;
+border-bottom-left-radius: 28px;
+z-index: -1;
+
+
+}
+.btn1:hover::after{
+    width: 50%;
+    visibility: visible;
+    left: 0%;
+    transition-duration: 1s;
+    color:white;
+
+}
+.btn1::before{
+    
+        height: 100%;
+        width:1px ;
+        background-color: black;
+        content: "";
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        visibility: hidden;
+        border-top-right-radius: 28px;
+        border-bottom-right-radius: 28px;
+        z-index: -1;
+}
+.btn1:hover::before{
+    width: 50%;
+    visibility: visible;
+    left: 50%;
+    transition-duration: 1s;
+
+}
+.aft2::after{
+    content: "";
+    position: absolute;
+    background-color:rgba(128, 128, 128, 0.322);
+    height: 2px;
+    width: 50px;
+top: 0px;
+visibility: hidden;
+}
+.aft2:hover::after{
+height: 90px;
+width: 50px;
+top: 0%;
+visibility: visible;
+transition-duration: 1s;
+}
+.aft::after{
+    content: "";
+    position: absolute;
+    background-color:rgba(128, 128, 128, 0.322);
+    height: 90px;
+    width: 50px;
+top: 0px;
+/* visibility: hidden; */
+}
+.aft:hover::after{
+height: 90px;
+width: 50px;
+top: 0%;
+visibility: visible;
+transition-duration: 1s;
+}
+.aft3::after{
+    content: "";
+    position: absolute;
+    background-color:rgba(128, 128, 128, 0.322);
+    height: 2px;
+    width: 70px;
+top: 0px;
+visibility: hidden;
+}
+.aft3:hover::after{
+height: 90px;
+width: 70px;
+top: 0%;
+visibility: visible;
+transition-duration: 1s;
+
+}
+.aft2:hover{
+    cursor: pointer;
+    color: yellow;
+}
+.aft3:hover{
+    color: yellow;
+    cursor: pointer;
+}
+.home{
+    visibility:hidden;
+
+}
+.aft2:hover.home{
+    visibility: visible;
+}
+.mar:hover{
+margin-left:5px ;
+transition-duration: 1s;
+}
+/* ========================== */
+.aft4{
+     background-image: url(./slider-shape-1.png);
+     background-size: 100% 100%;
+     animation-name: name1; 
+     animation-duration:5s;
+ animation-iteration-count: infinite;
+ position:relative;
+}
+@keyframes name1{
+     0%{
+    transform: scale(1.0);
+        transition-duration: 10s;
+     }
+50%{
+transform: scale(1.1);
+transition-duration: 10s;
+}
+100%{
+    transform: scale(1.0);
+    transition-duration: 10s;
+}
+
+}
+.ani1{
+    animation-name: name2; 
+    animation-duration:5s;
+animation-iteration-count: infinite;
+position: relative;
+}
+@keyframes name2{
+    0%{
+    top: -100px;
+transition-duration: 1s;
+opacity: 0;
+    }
+    50%{
+top: 100px;
+transition-delay: 1s;
+}
+100%{
+    top: -100px;
+    transition-duration: 1s;
+}
+}
+.ani3{
+    animation-name: name3; 
+    animation-duration:5s;
+animation-iteration-count: infinite;
+position:relative;
+}
+@keyframes name3{
+    0%{
+    top: 100px;
+transition-duration: 1s;
+
+    }
+    50%{
+top: -50px;
+transition-delay: 1s;
+opacity: 0;
+    }
+    100%{
+        top: 100px;
+        transition-duration: 1s;
+    }
+}  
+.btn2::after{
+    height: 100%;
+    width:1px ;
+    background-color:yellow;
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    visibility: hidden;
+    border-top-left-radius: 28px;
+    border-bottom-left-radius: 28px;
+    z-index: -1;
+    
+    
+    }
+    .btn2:hover::after{
+        width: 50%;
+        visibility: visible;
+        left: 0%;
+        transition-duration: 1s;
+        color:black;
+    
+    }
+    .btn2::before{
+        
+            height: 100%;
+            width:1px ;
+            background-color: yellow;
+            content: "";
+            position: absolute;
+            top: 0%;
+            left: 50%;
+            visibility: hidden;
+            border-top-right-radius: 28px;
+            border-bottom-right-radius: 28px;
+            z-index: -1;
+    }
+    .btn2:hover::before{
+        width: 50%;
+        visibility: visible;
+        left: 50%;
+        transition-duration: 1s;
+    
+    } 
+    .no1{
+        border-bottom-left-radius: 40px;
+        border-top-left-radius: 40px;
+        border-left: 1px solid rgba(0, 0, 0, 0.164);
+        border-top: 1px solid rgba(0, 0, 0, 0.164);
+        border-top: 1px solid rgba(0, 0, 0, 0.164);
+        background-color:rgba(0, 0, 0, 0.164);
+    }
+    /* =============== */
+    .hom{
+        visibility: hidden;
+        cursor: pointer;
+    }
+    .aft{
+        position: relative;
+        z-index: 1;
+       
+    }
+    .aft:hover .hom{
+      cursor: pointer;
+      visibility: visible;
+    }
+    /* =========== */
+     .aft3{
+        position: relative;
+        z-index: 1;
+    }
+    .ho{
+        visibility: hidden;
+        cursor: pointer;
+    }
+    .aft3:hover .ho{
+      cursor: pointer;
+      visibility: visible;
+    }
+      .aft2{
+        position: relative;
+        z-index: 1;
+    }
+    .ho{
+        visibility: hidden;
+        cursor: pointer;
+    }
+    .aft2:hover .ho{
+      cursor: pointer;
+      visibility: visible;
+    }
+    .img{
+        filter: grayscale();
+    }
+    .img:hover{
+        filter: none;
+    }
+    /* ********sec1 End*******8 */
+    .sec2part2{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.87),rgba(0, 0, 0, 0.808)),url(./service-style1-area_bg.jpg);
+        background-size: 100% 100%;
+    }
+    .iconrot:hover{
+transform: rotatey(90deg);
+transition-duration: 2s;
+cursor: pointer;
+    }
+    .sec2ani{
+        background-image: url(./thm-shape-2.png);
+        background-size: 100% 100%;
+        animation-name: name5;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+    position:absolute;
+    }
+    @keyframes name5{
+        0%{
+            transform: scale(1.0);
+            transition-duration: 1s;
+         }
+        500%{
+transform: scale(1.2);
+transition-duration: 1s;
+}
+100%{
+    transform: scale(1.0);
+    transition-duration: 1s;
+}
+}
+.sec2ani2{
+    background-image: url(./thm-shape-3.png);
+    background-size: 100% 100%;
+    animation-name: name5;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+position:absolute;
+}
+@keyframes name5{
+    0%{
+        transform: scale(1.0);
+        transition-duration: 1s;
+     }
+    50%{
+transform: scale(1.2);
+transition-duration: 1s;
+}
+100%{
+    transition-duration: 1s;
+    transform: scale(1.0);
+}
+}
+ .box1{
+background-image: linear-gradient(rgba(128, 128, 128, 0.911),rgba(128, 128, 128, 0.521)),url(./img\ \(1\).jpg);
+background-size: 100% 100%;
+
+}
+.asd{
+    visibility: hidden  ;
+}
+.box1:hover .asd{
+visibility: visible;
+margin-top: -190px;
+margin-left: -100px;
+transition-duration:1s;
+}
+.box1:hover{
+    background-image: url(./img\ \(1\).jpg);
+    background-size: 100% 100%;
+    transition-duration: 3s;
+    transform: scale(1.1);
+    }
+.box2{
+    background-image:linear-gradient(rgba(128, 128, 128, 0.664),rgba(128, 128, 128, 0.603)),url(./img\ \(2\).jpg);
+    background-size: 100% 100%;
+    }
+    .box2:hover{
+        background-image: url(./img\ \(2\).jpg);
+        background-size: 100% 100%;
+        transition-duration: 3s;
+        transform: scale(1.2);
+        }
+   
+        .box4{
+            background-image:linear-gradient(rgba(128, 128, 128, 0.664),rgba(128, 128, 128, 0.603)),url(./img\ \(3\).jpg);
+            background-size: 100% 100%;
+            }
+            .box4:hover{
+                background-image: url(./img\ \(3\).jpg);
+                background-size: 100% 100%;
+                transition-duration: 3s;
+                transform: scale(1.1);
+            }
+            .ang1{
+                transform: rotate(90deg);
+            }         
+ .aaa{
+    background-image: url(./thm-shape-1.png);
+    background-size:100% 100%;
+    z-index: -1;
+    animation-name:thm1;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    overflow: hidden;
+ }    
+ @keyframes thm1{
+    0%{
+transform: scale(1.0);
+transition-duration: 5s;
+}
+50%{
+    transform: scale(1.1);
+    transition-delay: 5s;
+}
+100%{
+    transform: scale(1.0);
+    transition-duration: 5s;
+}
+ }       
+ .btn4:hover{
+    color: white;
+    cursor: pointer;
+ }
+ .boxe1{
+    background-image: url(./about-style1-user-1.jpg);
+    background-size: 100% 100%;
+ }
+ .boxe2{
+    background-image: url(./about-style1-user-2.jpg);
+    background-size: 100% 100%;
+ }
+ .boxe3{
+    background-image: url(./about-style1-user-3.jpg);
+    background-size: 100% 100%;
+ }
+ .boxe4{
+    background-image: url(./about-style1-user-4.jpg);
+    background-size: 100% 100%;
+ }
+ .boxe5{
+    background-image: url(./about-style1-user-5.jpg);
+    background-size: 100% 100%;
+ }
+ .sec3part1{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.767),rgba(0, 0, 0, 0.726)),url(./portfolio-1.jpg);
+    background-size: 100% 100%;
+ }
+ .sec3part1:hover{
+    background-image:url(./portfolio-1.jpg);
+    background-size: 100% 100%;
+    transition-duration:1s;
+    transform: scale(1.1);
+ }
+ .btn5{
+    margin:auto;
+    margin-top: 240px;
+    visibility: hidden;
+    transform: scale(-1.1);
+ }
+ .sec3part1:hover .btn5{
+visibility: visible;
+cursor: pointer;
+transform: scale(1.1);
+ }
+ .btn5{
+    animation-name: btn5;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+ }
+ @keyframes btn5{
+    0%{
+        transform: scale(-1.1);
+        transition-duration: 1s;
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1.1);
+        transition-duration: 3s;
+    }
+ }
+ .sec3part2{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.767),rgba(0, 0, 0, 0.726)),url(./blog-v1-1.jpg);
+    background-size: 100% 100%;
+ }
+ .sec3part2:hover{
+    background-image:url(./blog-v1-1.jpg);
+    background-size: 100% 100%;
+    transition-duration:1s;
+    transform: scale(1.1);
+ }
+ .sec3part3{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.767),rgba(0, 0, 0, 0.726)),url(./portfolio-3.jpg);
+    background-size: 100% 100%;
+ }
+ .sec3part3:hover{
+    background-image:url(./portfolio-3.jpg);
+    background-size: 100% 100%;
+    transition-duration:1s;
+    transform: scale(1.1);
+ }
+ .sec3part4{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.767),rgba(0, 0, 0, 0.726)),url(./portfolio-4.jpg);
+    background-size: 100% 100%;
+ }
+ .sec3part4:hover{
+    background-image:url(./portfolio-4.jpg);
+    background-size: 100% 100%;
+    transition-duration:1s;
+    transform: scale(1.1);
+ }
+ .sec3part5{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.767),rgba(0, 0, 0, 0.726)),url(./portfolio-5.jpg);
+    background-size: 100% 100%;
+ }
+ .sec3part5:hover{
+    background-image:url(./portfolio-5.jpg);
+    background-size: 100% 100%;
+    transition-duration:1s;
+    transform: scale(1.1);
+ }
+ .img5{
+    background-image: url(./video-gallery-area-bg.jpg);
+    background-size:100% 100%;
+ }
+ .webkit{
+    -webkit-text-stroke:3px rgba(255, 255, 255, 0.829);
+    color: transparent;
+ }
+ .img6{
+   background-image: url(./team-v1-1.jpg);
+   background-size: 100% 100%; 
+ }
+ .img6:hover{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.699),rgba(0, 0, 0, 0.384)),url(./team-v1-1.jpg);
+    background-size: 100% 100%; 
+    transform: scale(1.1);
+    transition-duration: 2s;
+  }
+
+.img6:hover .ani10{
+margin-top:120px ;
+transition-duration: 1s;
+  } 
+  .ani10{
+    background-image: url(./blog-shape-1.png);
+    background-size:100% 100%;
+  }
+  .hello:hover{
+color: rgba(255, 255, 0, 0.644);
+  }
+  .face:hover{
+    visibility: visible;
+    background-color:gray;
+    color: white;
+    border: 1px solid white;
+  }
+  .face{
+    border: 1px solid yellow;
+    color: yellow;
+  }
+
+
+  .img7{
+    background-image: linear-gradient(rgba(128, 128, 128, 0.63),rgba(128, 128, 128, 0.568)),url(./team-v1-2.jpg);
+    background-size: 100% 100%; 
+  }
+  .img7:hover{
+     background-image: linear-gradient(rgba(0, 0, 0, 0.486),rgba(0, 0, 0, 0.616)),url(./team-v1-2.jpg);
+     background-size: 100% 100%; 
+     transform: scale(1.1);
+     transition-duration: 2s;
+   }
+   /* === */
+ .img7:hover .ani10{
+ margin-top:120px ;
+ transition-duration: 1s;
+   } 
+   .img8{
+    background-image: linear-gradient(rgba(128, 128, 128, 0.678),rgba(128, 128, 128, 0.548)),url(./team-v1-3.jpg);
+    background-size: 100% 100%; 
+  }
+  .img8:hover{
+     background-image: linear-gradient(rgba(0, 0, 0, 0.486),rgba(0, 0, 0, 0.616)),url(./team-v1-3.jpg);
+     background-size: 100% 100%; 
+     transform: scale(1.1);
+     transition-duration: 2s;
+   }
+   /* === */
+ .img8:hover .ani10{
+ margin-top:120px ;
+ transition-duration: 1s;
+ }
+ .img9{
+    background-image: linear-gradient(rgba(128, 128, 128, 0.664),rgba(128, 128, 128, 0.555)),url(./team-v1-4.jpg);
+    background-size: 100% 100%; 
+  }
+  .img9:hover{
+     background-image: linear-gradient(rgba(0, 0, 0, 0.486),rgba(0, 0, 0, 0.616)),url(./team-v1-4.jpg);
+     background-size: 100% 100%; 
+     transform: scale(1.1);
+     transition-duration: 2s;
+   }
+   /* === */
+ .img9:hover .ani10{
+ margin-top:120px ;
+ transition-duration: 1s;
+ }
+ .img10{
+    background-image: linear-gradient(rgba(128, 128, 128, 0.63),rgba(128, 128, 128, 0.644)),url(./team-v1-5.jpg);
+    background-size: 100% 100%; 
+  }
+  .img10:hover{
+     background-image: linear-gradient(rgba(0, 0, 0, 0.486),rgba(0, 0, 0, 0.616)),url(./team-v1-5.jpg);
+     background-size: 100% 100%; 
+     transform: scale(1.1);
+     transition-duration: 2s;
+   }
+   /* === */
+ .img10:hover .ani10{
+ margin-top:120px ;
+ transition-duration: 1s;
+ }
+ .img11{
+    background-image: linear-gradient(rgba(128, 128, 128, 0.514),rgba(128, 128, 128, 0.473)),url(./skill-style1_image.jpg);
+    background-size:100% 100%;
+ }
+ /* ++++++++++++sec 7 end++++++++++++++ */
+.img12{
+    background-image: linear-gradient(rgba(128, 128, 128, 0.637),rgba(128, 128, 128, 0.603)),url(./blog-v1-1.jpg);
+    background-size:100% 100%;
+}
+.img12:hover{
+    background-image: url(./blog-v1-1.jpg);
+    background-size:100% 100%;
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+.img12:hover .ani11{
+    margin-top:220px ;
+    transition-duration: 1s;
+    margin-left: 20px;
+      } 
+.ani11{
+ background-image: url(./blog-shape-1.png);
+ background-size:100% 100%;
+      }
+      .img13{
+        background-image: linear-gradient(rgba(128, 128, 128, 0.637),rgba(128, 128, 128, 0.603)),url(./blog-v1-2.jpg);
+        background-size:100% 100%;
+    }
+    .img13:hover{
+        background-image: url(./blog-v1-2.jpg);
+        background-size:100% 100%;
+        transform: scale(1.1);
+        transition-duration: 1s;
+    }
+    .img13:hover .ani11{
+        margin-top:220px ;
+        transition-duration: 1s;
+        margin-left: 20px;
+          } 
+    .ani11{
+     background-image: url(./blog-shape-1.png);
+     background-size:100% 100%;
+          }
+          /* ____________sec 9 start_____________ */
+          .map:hover .nop{
+            border:2px solid yellow;
+          }
+
+          .webkit1{
+            -webkit-text-stroke:1px rgba(0, 0, 0, 0.76);
+            color: transparent;
+         }
+         .clipy{
+            clip-path: polygon(100% 0, 100% 63%, 71% 100%, 0 100%, 0 0);
+         }
+         .img14{
+            background-image: url(./m2.jpg);
+            background-size:100% 100%;
+         }
+         .img15{
+            background-image: url(./vt.png);
+            background-size:100% 100%;
+         }
+         .img16{
+            background-image: url(./map-form-box-shape-1.png);
+            background-size:100% 100%;
+            animation-name: img16;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+
+         }
+         @keyframes img16{
+            0%{
+                left: -40px;
+                transition-duration: 2s;
+            }
+            50%{
+                left: 40px;
+                transition-delay: 2s;
+            }
+            100%{
+                left: -40px;
+                transition-duration: 2s;
+            }
+         }
+.img17{
+    background-image: url(./thm-shape-4.png);
+background-size:100% 100%;
+
+} 
+.img18{
+    background-image: url(./map-form-box-shape-3.png);
+    background-size:100% 100%;
+}  
+/* +==       */
+.logof{
+    background-image: url(./footer-logo.png);
+    background-size: 100% 100%;
+}
+.goel{
+    background-image: url(./thm-shape-4.png);
+    background-size: 100% 100%;
+}
+.star{
+    background-image: url(./instagram-1.jpg);
+    background-size: 100% 100%;
+}
+.star1{
+    background-image: url(./instagram-2.jpg);
+    background-size: 100% 100%;
+}
+.star2{
+    background-image: url(./instagram-3.jpg);
+    background-size: 100% 100%;
+}
